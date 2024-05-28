@@ -21,15 +21,15 @@ class CustomException(Exception):
     
 
 
-if __name__=="__main__":
+#if __name__=="__main__":
 
 
-    try:
+    #try:
 
-        a=1/0
+        #a=1/0
         
-    except Exception as e:
+    #except Exception as e:
 
 
-        logging.info("Divide by Zero error")
-        raise CustomException(e,sys)    
+        #logging.info("Divide by Zero error")
+        #raise CustomException(e,sys)    
